@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tweet2Spotify", "Tweet2Spotify", "{FDDACBC5-5F40-4051-BE39-A9338014C91D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tweet2Spotify.Shared", "Tweet2Spotify\Tweet2Spotify.Shared\Tweet2Spotify.Shared.shproj", "{8A3A669E-229B-4AF1-99CF-7C9C3EA70990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet2Spotify.Windows", "Tweet2Spotify\Tweet2Spotify.Windows\Tweet2Spotify.Windows.csproj", "{5E294AC3-4B41-41EC-B92D-C3537555AB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet2Spotify.WindowsPhone", "Tweet2Spotify\Tweet2Spotify.WindowsPhone\Tweet2Spotify.WindowsPhone.csproj", "{181997B5-0C80-4DD1-9692-0544746968A7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Tweet2Spotify\Tweet2Spotify.Shared\Tweet2Spotify.Shared.projitems*{8a3a669e-229b-4af1-99cf-7c9c3ea70990}*SharedItemsImports = 13
+		Tweet2Spotify\Tweet2Spotify.Shared\Tweet2Spotify.Shared.projitems*{5e294ac3-4b41-41ec-b92d-c3537555ab3d}*SharedItemsImports = 4
+		Tweet2Spotify\Tweet2Spotify.Shared\Tweet2Spotify.Shared.projitems*{181997b5-0c80-4dd1-9692-0544746968a7}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://eamonnreilly.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tweet2Spotify\\Tweet2Spotify.Shared\\Tweet2Spotify.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = Tweet2Spotify.sln
+		SccProjectName1 = Tweet2Spotify/Tweet2Spotify.Shared
+		SccLocalPath1 = Tweet2Spotify\\Tweet2Spotify.Shared
+		SccProjectUniqueName2 = Tweet2Spotify\\Tweet2Spotify.Shared\\Tweet2Spotify.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = Tweet2Spotify.sln
+		SccProjectName2 = Tweet2Spotify/Tweet2Spotify.Shared
+		SccLocalPath2 = Tweet2Spotify\\Tweet2Spotify.Shared
+		SccProjectUniqueName3 = Tweet2Spotify\\Tweet2Spotify.Windows\\Tweet2Spotify.Windows.csproj
+		SccProjectTopLevelParentUniqueName3 = Tweet2Spotify.sln
+		SccProjectName3 = Tweet2Spotify/Tweet2Spotify.Windows
+		SccLocalPath3 = Tweet2Spotify\\Tweet2Spotify.Windows
+		SccProjectUniqueName4 = Tweet2Spotify\\Tweet2Spotify.WindowsPhone\\Tweet2Spotify.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName4 = Tweet2Spotify.sln
+		SccProjectName4 = Tweet2Spotify/Tweet2Spotify.WindowsPhone
+		SccLocalPath4 = Tweet2Spotify\\Tweet2Spotify.WindowsPhone
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|ARM.Build.0 = Debug|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x64.ActiveCfg = Debug|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x64.Build.0 = Debug|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x64.Deploy.0 = Debug|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x86.ActiveCfg = Debug|x86
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x86.Build.0 = Debug|x86
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Debug|x86.Deploy.0 = Debug|x86
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|ARM.ActiveCfg = Release|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|ARM.Build.0 = Release|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|ARM.Deploy.0 = Release|ARM
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x64.ActiveCfg = Release|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x64.Build.0 = Release|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x64.Deploy.0 = Release|x64
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x86.ActiveCfg = Release|x86
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x86.Build.0 = Release|x86
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D}.Release|x86.Deploy.0 = Release|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|ARM.Build.0 = Debug|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|x86.ActiveCfg = Debug|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|x86.Build.0 = Debug|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Debug|x86.Deploy.0 = Debug|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|ARM.ActiveCfg = Release|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|ARM.Build.0 = Release|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|ARM.Deploy.0 = Release|ARM
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|x86.ActiveCfg = Release|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|x86.Build.0 = Release|x86
+		{181997B5-0C80-4DD1-9692-0544746968A7}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A3A669E-229B-4AF1-99CF-7C9C3EA70990} = {FDDACBC5-5F40-4051-BE39-A9338014C91D}
+		{5E294AC3-4B41-41EC-B92D-C3537555AB3D} = {FDDACBC5-5F40-4051-BE39-A9338014C91D}
+		{181997B5-0C80-4DD1-9692-0544746968A7} = {FDDACBC5-5F40-4051-BE39-A9338014C91D}
+	EndGlobalSection
+EndGlobal
